@@ -31,28 +31,18 @@ npm run preview   # http://127.0.0.1:43128
 
 Once per player, per game, right after you place a piece you can tap **Grammy Flex**. That triggers a short confetti burst and a trophy flash on the piece you just dropped. It is **purely cosmetic** — it does not change rules, block columns, or affect who wins. You can **Skip flex** to continue immediately.
 
-## Public deploy
+## Public playable link
 
-`npm run build` outputs static files in `dist/`.
+**Live game:** [https://kimballjh11.github.io/kanye-taylor-connect4/](https://kimballjh11.github.io/kanye-taylor-connect4/)
 
-### Option A — Netlify Drop (no account CLI needed)
+Source repo: [https://github.com/kimballjh11/kanye-taylor-connect4](https://github.com/kimballjh11/kanye-taylor-connect4)
 
-1. Run `npm run build`.
-2. Open [https://app.netlify.com/drop](https://app.netlify.com/drop).
-3. Drag the `dist` folder onto the page.
-4. Copy the public URL Netlify gives you into `Canvas_Submission.docx`.
+`npm run build` outputs static files in `dist/`. GitHub Actions deploys `dist` to GitHub Pages on every push to `main` (with `GITHUB_PAGES=1` so asset paths use the `/kanye-taylor-connect4/` base).
 
-### Option B — Vercel
+### Alternate hosts
 
-```bash
-npx vercel --prod
-```
-
-### Option C — GitHub Pages
-
-Push this folder to a GitHub repo, enable Pages from the `dist` folder (or use a GitHub Action that runs `npm run build`).
-
-If a live public URL is not available yet, play locally at the URL above and note “pending deploy” on the Canvas submission.
+- **Netlify Drop:** drag the `dist` folder to [https://app.netlify.com/drop](https://app.netlify.com/drop)
+- **Vercel:** `npx vercel --prod`
 
 ## Project layout
 
