@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Kanye stylized avatar">
+  <defs>
+    <radialGradient id="kSkin" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#8b5a2b"/>
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#1a1a1a"/>
+  <circle cx="60" cy="62" r="48" fill="url(#kSkin)"/>
+  <!-- short fade / cropped hair -->
+  <ellipse cx="60" cy="28" rx="42" ry="18" fill="#111"/>
+  <path d="M18 48 Q30 22 60 20 Q90 22 102 48 L98 42 Q60 14 22 42 Z" fill="#0a0a0a"/>
+  <!-- eyebrows -->
+  <path d="M28 50 Q42 44 52 48" stroke="#2a1810" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M68 48 Q78 44 92 50" stroke="#2a1810" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- eyes -->
+  <ellipse cx="42" cy="58" rx="8" ry="6" fill="#fff"/>
+  <ellipse cx="78" cy="58" rx="8" ry="6" fill="#fff"/>
+  <circle cx="43" cy="59" r="3.5" fill="#1a1208"/>
+  <circle cx="79" cy="59" r="3.5" fill="#1a1208"/>
+  <!-- nose -->
+  <path d="M60 58 L55 72 Q60 76 65 72 Z" fill="#7a4a28"/>
+  <!-- mouth / beard shadow -->
+  <ellipse cx="60" cy="92" rx="28" ry="14" fill="#5c3a22" opacity="0.45"/>
+  <path d="M45 86 Q60 96 75 86" stroke="#3d2415" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Yeezy shades vibe (optional thin frames) -->
+  <rect x="28" y="52" width="28" height="14" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+  <rect x="64" y="52" width="28" height="14" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+  <line x1="56" y1="58" x2="64" y2="58" stroke="#111" stroke-width="2.5"/>
+</svg>

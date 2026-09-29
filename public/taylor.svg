@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Taylor stylized avatar">
+  <defs>
+    <radialGradient id="tSkin" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f5d0b0"/>
+      <stop offset="100%" stop-color="#e0a878"/>
+    </radialGradient>
+    <linearGradient id="tHair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4d03f"/>
+      <stop offset="55%" stop-color="#d4a017"/>
+      <stop offset="100%" stop-color="#a67c00"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#f8e8f0"/>
+  <!-- long wavy hair behind -->
+  <ellipse cx="28" cy="70" rx="22" ry="42" fill="url(#tHair)"/>
+  <ellipse cx="92" cy="70" rx="22" ry="42" fill="url(#tHair)"/>
+  <circle cx="60" cy="62" r="44" fill="url(#tSkin)"/>
+  <!-- bangs / top hair -->
+  <path d="M20 55 Q25 18 60 16 Q95 18 100 55 Q90 28 60 26 Q30 28 20 55 Z" fill="url(#tHair)"/>
+  <path d="M35 28 Q45 40 38 52" fill="#c9920a" opacity="0.5"/>
+  <path d="M85 28 Q75 40 82 52" fill="#c9920a" opacity="0.5"/>
+  <!-- eyebrows -->
+  <path d="M32 52 Q42 46 52 50" stroke="#8b6914" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M68 50 Q78 46 88 52" stroke="#8b6914" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- eyes -->
+  <ellipse cx="42" cy="58" rx="8" ry="7" fill="#fff"/>
+  <ellipse cx="78" cy="58" rx="8" ry="7" fill="#fff"/>
+  <ellipse cx="43" cy="59" rx="4" ry="4.5" fill="#4a3728"/>
+  <ellipse cx="79" cy="59" rx="4" ry="4.5" fill="#4a3728"/>
+  <circle cx="44" cy="57" r="1.5" fill="#fff"/>
+  <circle cx="80" cy="57" r="1.5" fill="#fff"/>
+  <!-- blush -->
+  <ellipse cx="30" cy="72" rx="8" ry="4" fill="#f0a0a0" opacity="0.45"/>
+  <ellipse cx="90" cy="72" rx="8" ry="4" fill="#f0a0a0" opacity="0.45"/>
+  <!-- nose -->
+  <path d="M60 60 L57 72 Q60 75 63 72 Z" fill="#d4986a"/>
+  <!-- smile -->
+  <path d="M48 82 Q60 92 72 82" stroke="#c45c6a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- red lip hint -->
+  <ellipse cx="60" cy="86" rx="10" ry="3.5" fill="#c0394a" opacity="0.85"/>
+</svg>
